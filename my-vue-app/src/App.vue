@@ -19,7 +19,14 @@ export default{
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <div>
+    <h1>
+      {{ title }}
+    </h1>
+  </div>
+
+  <!-- utilizzo il componente e stampo il titolo -->
+  <AppTitle></AppTitle>
 </template>
 
 <style scoped>
