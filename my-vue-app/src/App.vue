@@ -1,5 +1,13 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+//importo il componente
+import AppTitle from './components/AppTitle.vue'
+
+export default{
+  components: {
+    //registro il componente
+    AppTitle
+  },
+}
 </script>
 
 <template>
