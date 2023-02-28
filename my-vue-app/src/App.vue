@@ -14,12 +14,8 @@ export default{
 
 <template>
 
-  <div class="bg-image">
-    
-  </div>
-
   <!-- utilizzo il componente e stampo il titolo -->
-  <!-- <AppTitle></AppTitle> -->
+  <AppTitle></AppTitle>
   <AppHero></AppHero>
 </template>
 

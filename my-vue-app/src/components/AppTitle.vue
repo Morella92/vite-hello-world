@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="title-style">
         {{ title }}
     </div>
 </template>
@@ -13,3 +13,12 @@ export default {
     }
 }
 </script>
+
+<style>
+.title-style {
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+</style>

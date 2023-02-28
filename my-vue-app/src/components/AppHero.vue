@@ -1,8 +1,6 @@
 <template>
-    <div class="bg-image">
-        <h1 class="bg-green">
-            {{ title }}
-        </h1>
+    <div>
+        <img src="../../img/spongebob.jpg">
     </div>
 </template>
 
@@ -10,23 +8,18 @@
 export default {
     data() {
         return {
-            
-            title: 'La mia prima app con Vite!',
+
+            image: 'images.jpg'
 
         }
-    }
+    },
+
 }
 </script>
 
 <style>
-.bg-image {
-    background-image: url(../img/images.jpg);
-
+img {
+    max-width: 100%;
 }
 
-.bg-green {
-    background-color: green;
-    color: white;
-    font-weight: 600;
-}
 </style>
